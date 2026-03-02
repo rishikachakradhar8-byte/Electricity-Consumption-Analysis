@@ -16,4 +16,4 @@ This project analyzes electricity consumption patterns across Indian states usin
 5. Built interactive dashboard
 
 ## Tableau Dashboard Link
-https://public.tableau.com/app/profile/rishika.chakradhar/viz/Book1_17724740584550/Sheet5?publish=yes
+https://public.tableau.com/app/profile/rishika.chakradhar/viz/Book1_17724740584550/Dashboard1?publish=yes
