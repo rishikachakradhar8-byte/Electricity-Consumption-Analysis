@@ -1,19 +1,61 @@
 # Electricity Consumption Analysis
 
 ## Project Overview
-This project analyzes electricity consumption patterns across Indian states using MySQL and Tableau.
+This project analyzes electricity consumption data using SQL and Tableau.  
+The goal is to understand usage patterns, identify high-consumption customers, and visualize trends over time.
 
-## Tools Used
-- MySQL
-- SQL
-- Tableau Public
+---
 
-## Project Workflow
-1. Collected dataset (CSV)
-2. Stored data in MySQL database
-3. Performed SQL queries (SUM, GROUP BY, Monthly Analysis)
-4. Connected MySQL with Tableau
-5. Built interactive dashboard
+## Dataset
+- The data is stored in `data/electricity_data.csv`.
+- Contains the following columns:
+  - `customer_id` : Unique identifier for each customer
+  - `city` : Customer's city
+  - `consumption` : Electricity consumption in units
+  - `date` : Date of consumption record
 
-## Tableau Dashboard Link
-https://public.tableau.com/app/profile/rishika.chakradhar/viz/Book1_17724740584550/Dashboard1?publish=yes
+---
+
+## SQL Analysis
+SQL scripts are available in the `sql/` folder:
+
+1. `create_table.sql` – Creates the table structure in the database.  
+2. `insert_data.sql` – Populates the table with data (or CSV import).  
+3. `queries.sql` – Contains analysis queries, including:
+   - Total consumption per city
+   - Average consumption per customer
+   - High-consumption customers
+   - Monthly consumption trends
+
+> These queries were used to prepare the data for Tableau visualization.
+
+---
+
+## Tableau Dashboard
+The interactive dashboard is available online:
+
+[View Dashboard](https://public.tableau.com/app/profile/rishika.chakradhar/viz/Book1_17724740584550/Dashboard1?publish=yes)
+
+### Dashboard Features:
+- **Bar chart:** Total consumption per city  
+- **Line chart:** Monthly consumption trends  
+- **Table:** High-consumption customers  
+- **Filters:** By city and date  
+
+---
+
+## Project Structure
+
+''' 
+Electricity-Consumption-Analysis/
+│
+├─ data/
+│ └─ electricity_data.csv
+├─ sql/
+│ ├─ create_table.sql
+│ ├─ insert_data.sql
+│ └─ queries.sql
+├─ tableau/
+│ └─ (Dashboard screenshots optional)
+└─ README.md
+'''
