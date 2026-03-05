@@ -195,3 +195,12 @@ Missing Values: No major missing values detected.
 
 This dataset was used for SQL analysis and Tableau dashboard visualizations.
 '''
+
+## Filters Used in Dashboard
+
+| Filter Name | Applied On | Effect on Visualization |
+|-------------|------------|-------------------------|
+| City | Bar charts and maps | Filters electricity consumption data based on selected city |
+| Date | Line charts | Shows electricity usage trends for selected time period |
+''' 
+
