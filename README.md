@@ -196,6 +196,7 @@ Electricity-Consumption-Analysis/
 ├─ tableau/
 │ └─ (Dashboard screenshots optional)
 └─ README.md
+
 '''
 
 
@@ -207,7 +208,18 @@ Electricity-Consumption-Analysis/
 | Scene 2 | State Consumption Analysis | Compares the top and bottom electricity consuming states. |
 | Scene 3 | Trend & Lockdown Analysis | Displays how electricity consumption changed during lockdown. |
 | Scene 4 | Time-Based Consumption Analysis | Shows monthly, quarterly and yearly electricity consumption trends. |
+
 '''
+
+## Dashboard Filters
+
+| Filter Name | Applied On | Effect on Visualization |
+|-------------|------------|-------------------------|
+| Region Filter | Region-wise charts and maps | Allows users to view electricity consumption for specific regions |
+| State Filter | State-level analysis charts | Helps compare electricity usage between selected states |
+| Date Filter | Monthly and yearly trend charts | Enables analysis of electricity consumption over specific time periods |
+
+---
 
 ## Dataset Summary
 
