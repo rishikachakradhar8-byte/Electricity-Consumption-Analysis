@@ -164,3 +164,12 @@ Electricity-Consumption-Analysis/
 │ └─ (Dashboard screenshots optional)
 └─ README.md
 '''
+
+## Story Scenes
+
+| Scene | Visualization | Purpose |
+|------|---------------|--------|
+| Scene 1 | Electricity Consumption Overview | Shows the overall electricity usage across states and regions. |
+| Scene 2 | State Consumption Analysis | Compares the top and bottom electricity consuming states. |
+| Scene 3 | Trend & Lockdown Analysis | Displays how electricity consumption changed during lockdown. |
+| Scene 4 | Time-Based Consumption Analysis | Shows monthly, quarterly and yearly electricity consumption trends. |
