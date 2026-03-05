@@ -13,6 +13,23 @@ The goal is to understand usage patterns, identify high-consumption customers, a
   - `city` : Customer's city
   - `consumption` : Electricity consumption in units
   - `date` : Date of consumption record
+ 
+### Dataset Summary
+
+| Metric | Value |
+|------|------|
+| Rows | 16600 |
+| Columns | 6 |
+| Missing Values | No |
+
+### Columns Description
+
+- States – Name of Indian state
+- Regions – Region classification (NR, SR, WR, ER, NER)
+- Latitude – Geographic latitude of the state
+- Longitude – Geographic longitude of the state
+- Dates – Date of electricity consumption record
+- Usage – Electricity consumption units
 
 ---
 
