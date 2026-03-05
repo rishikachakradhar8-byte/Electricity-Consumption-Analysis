@@ -8,6 +8,7 @@ The goal is to understand usage patterns, identify high-consumption customers, a
 
 ## Dataset
 The data is stored in `data/electricity_data.csv`.
+
 Contains the following columns:
 - States
 - Regions
